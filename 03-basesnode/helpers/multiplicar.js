@@ -19,7 +19,7 @@ const  CrearArchivo = async( tabla, l=false, h=10)=>{
             console.log("###################");
             console.log(consola);
         }
-         fs.writeFileSync(`tabla-${tabla}.txt`, salida);
+         fs.writeFileSync(`./salida/tabla-${tabla}.txt`, salida);
 
              return `tabla-${tabla}.txt Ha sido creado`;
         
