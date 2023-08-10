@@ -1,2 +1,3 @@
 /salida/*.txt
-03--basenode/node_modules
+/03--basenode/node_modules/
+*.txt
